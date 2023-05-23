@@ -1,0 +1,119 @@
+#partier1{
+    margin-bottom: 80px;
+   }
+   .partier1-milaje{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+   }
+   .partier1-milaje .photos-doramilaje img{
+     width: 700px;
+     margin-top: -100px;
+   }
+   .partier1-milaje.container-doramilaje{
+     width: 450px;
+   }
+   .partier1-milaje .container-doramilaje h2{
+     font-family: 'beynoregular';
+     font-size: 35px;
+     color: #9E91B7;
+     padding-top: 40px;
+   }
+   .description-doramilaje{
+     background-image: url(backrondcss/Pantherenigme2.);
+     background-size: cover;
+     background-size: 450px;
+     width: 400px;
+     margin-top: 50px;
+   }
+   .partier1-milaje .container-doramilaje
+   .description-doramilaje p{
+       padding: 100px 20px 90px 70px;
+      font-family: 'cantarellregular';
+      font-size: 10px;
+      line-height: 1;
+      color: #ffffffd7;
+   }
+   .container-doramilaje .Pantherenigme3 img{
+     position: relative;
+     top: -45px;
+   }
+     
+   
+   /* section2-enigme*/
+   #section2-enigme{
+     margin-bottom: -150px;
+   }
+   #section2-enigme .titre-je-suis-fidele h2{
+     font-family: 'wakanda_foreverregular';
+     font-size: 28px;
+     width: 600px;
+     padding-left: 200px;
+     color: #9E91B7;
+   }
+   #section2-enigme .alphabet{
+     width: 600px;
+     padding-left: 200px;
+     padding-top: 20px;
+     color: #ffffffc2;
+     font-size: 12px;
+   }
+   #section2-enigme .alphabet span{
+     font-family: 'wakanda_foreverregular';
+     font-size: 16px;
+   }
+   #section2-enigme .container-sources{
+     background-image: url(backrondcss/Pantherenigme2.png);
+     background-size: cover;
+     background-size: 450px;
+     background-repeat: no-repeat;
+     position: relative;
+      left: 52%;
+      top: -100px;
+   }
+   #section2-enigme .container-sources p{
+     width: 300px;
+     padding: 100px 20px 90px 70px;
+      font-family: 'cantarellregular';
+      font-size: 11px;
+      line-height: 1;
+      color: #ffffffd7;
+   }
+   .container-sources span{
+     padding-left: 100px;
+     font-size: 14px;
+   }
+   #section2-enigme .form{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     position: relative;
+     left: -300px;
+     top: -200px;
+   }
+   #section2-enigme .form p {
+     font-family: 'cantarellregular';
+     font-size: 12px;
+     color: #ffffffd7;
+     margin-left: -70px;
+   }
+   #section2-enigme .form textarea{
+     border: 1px solid #ffffffd0;
+     width: 200px;
+     background-color: transparent;
+     padding: 7px 50px 0px 20px;
+     border-radius: 40px;
+     margin-top: 20px;
+     color: #FFFFFF;
+   }
+   
+   #section2-enigme .form input[type="submit"]{
+     display: block;
+     width: 150px;
+     margin: 30px auto;
+     padding: 10px 0;
+     cursor: pointer;
+     border-radius: 40px;
+   }  
+   

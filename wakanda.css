@@ -1,0 +1,89 @@
+#wakanda1{
+    background-image: url(backrondcss/Pantherwakanda1.png);
+    background-size: cover;
+    background-position: center;
+}
+#wakanda1 .container-wakanda1{
+     padding: 200px 20px 150px  140px;
+}
+#wakanda1 .container-wakanda1 h1{
+    font-family: 'beynoregular';
+    font-size: 40px;
+    color: #9E91B7;
+
+}
+#wakanda1 .container-wakanda1 h2{
+    font-family: 'wakanda_foreverregular';
+    font-size: 28px;
+    color: #9E91B7;
+    margin-top: -20px;
+}
+#wakanda1 .container-wakanda1 p{
+    width: 350px;
+    font-family: 'cantarellregular';
+    font-size: 12px;
+    line-height: 1.1;
+    color: #ffffff;
+    text-align: justify;
+}
+
+/*wanda2 section 2*/
+
+#wakanda2{
+     background-image: url(backrondcss/Pantherwakanda2.png);
+     background-size: 1100px;
+     background-repeat: no-repeat;
+     margin-top: -40px;
+}
+#wakanda2 .container-wakanda2{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+#wakanda2 .container-wakanda2 h2{
+     font-family: 'beynoregular';
+     font-size: 20px;
+     text-align: justify;
+     color: #9E91B7;
+     padding-top: 10px;
+}
+#wakanda2 .container-wakanda2 p{
+     font-family: 'cantarellregular';
+     font-size: 12px;
+     line-height: 1.1;
+     text-align: justify;
+     color: #ffffffd0;
+}
+.origines-cinema{
+     width: 500px;
+     margin-right: 30px;
+     padding-top: 85px;
+     padding-bottom: 50px;
+}
+.origines-cinema .multimédia{
+     width: 350px;
+     background: #3D2DA6;
+     margin: 35px auto;
+     padding: 60px 30px;
+}
+.origines-cinema .multimédia a{
+    text-decoration: none;
+    font-family: 'cantarellregular';
+    font-size: 11px;
+    color: #ffffffc9;
+    padding: 10px;
+}
+.origines-cinema .multimédia a:hover{
+ color: #9E91B7;
+  text-decoration: underline;
+}
+.panther-infini-militaire-anecdores{
+    width: 500px;
+    margin-left: 30px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.panther-infini-militaire-anecdores .force-militaire img{
+    width: 350px;
+    margin: 10px auto;
+} 
