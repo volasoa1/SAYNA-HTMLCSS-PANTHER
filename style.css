@@ -1,331 +1,398 @@
-
-body{
-background: url(backrondcss/arrière_plan.png);
-}
-
-
-nav {
-    padding: 15px 80px;
-    display: flex;
-    align-items: center;
-}
-nav:not(:first-of-type){
-   margin-top: 200px;
-}
-nav a {
-    color: #FFFFFF;
-    font-family: 'beynoregular';
-    font-size: 18px;
-    text-transform: uppercase;
-    margin:0 10px;
-}
-nav img{
-  width: 60px;
-}
-nav a:first-of-type {
-    margin-left: auto;
-}
-nav .logo-header{
-  margin-right: 25px;
-  display: flex;
-}
-
-
-#partier1 .p1{
-    display: flex;
-    justify-content: center;
-    padding-top: 20px;
-}
-.p1 
-.personage img{
-    width: 650px;
-}
-#partier1 .description{
-    width: 425px;
-    padding-top: 50px;
-    padding-left: 120px;
-    margin-right: 50px;
-    color: #FFFFFF;
-    
-}
-.description h1 {
-        font-family: 'pantheraregular';
-         font-size: 45px;
-         color: #9E91B7;
-
-}
-.description h2 {
-    font-family: 'beynoregular';
-    margin-top: -30px;
-    font-size: 32px;
-    color: #9E91B7;
-}
-.description p {
-    font-family: 'cantarellregular';
-    font-size: 11px;
-    text-align: justify;
-}
-.description a{
-    padding-top: 5px;
-    color: #FFFFFF;
-    font-size: 12px;
-}
-
-/* resposive flexbox  killmonger et okoye */
-
-.partier2 .Pantherhome2-killmonger{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 60px;
-    background: #021740;
+@font-face{
+    font-family: 'Panthera';
+    src: url(./police/fontpanthera/pantheraregular-mvz9j-webfont.woff);
   }
-  .Pantherhome2-killmonger .killmo{
-    width: 300px;
-    font-size: 12px;
+  @font-face{
+    font-family:'BEYNO';
+    src: url(./police/fontbeyno/beyno-webfont.woff);
   }
-  .Pantherhome2-killmonger .okoye{
-    width: 300px;
-    font-size: 12px;
-    padding: 0px 12px;
+  @font-face{
+    font-family: 'cantarell';
+    src: url(./police/fontcantarell/cantarell_regular_500-webfont.woff);
   }
-  .Pantherhome2-killmonger img {
-     width: 230px;
-     margin:0 -20px;
+  @font-face{
+    font-family: 'wakanda';
+    src: url(./police/fontwakanda/wakandaforever-regular-webfont.woff);
   }
-  .Pantherhome2-killmonger .item1{
-    width: 169px;
+  header .nav-links a{
+    font-family: 'BEYNO';
   }
-
-
-.container-article-aside{
-    display: flex;
-    justify-content: center;
-    padding-top: 100px;
-  } 
-  article{
-    width: 600px;
-    padding-top: 20px;
-    padding-right: 50px;
-    margin-left: -60px;
-    text-align: justify;
-  }
-  article h2{
-    font-family: 'beynoregular';
-     font-size: 25px;
-     color: #9E91B7;
-     padding-left: 80px;
-  }
-  article p{
-    font-family: 'cantarellregular';
-     font-size: 12px;
-     padding-left: 80px;
-     padding-bottom: 5px;
-     line-height: 1.1;
-     color: #ffffffcb;
-  }
-
-  aside{
-    width: 300px;
-    margin-top: 180px;
-    padding-left: 40px;
-    
-  }
-  aside .container-bloc-page{
-    background: #FFFFFF;
-    padding: 0 30px;
-    border-radius: 10px;
-  }
-  aside .container-image img{
-    width: 250px;
-    position: relative;
-    top: -180px;
-  }
-  aside .container-tchalla{
-    font-size: 11px;
-    margin-top: -185px;
-    padding: 10px auto;
-  }
-  aside .container-tchalla .container-liste ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: -50px;
-    width: 270px;
-  }
-  aside .container-tchalla 
-  .container-liste ul .item{
-    background: #07338C;
-    margin: 5px;
-    padding: 5px;
-    border-radius: 5px;
-    color: #FFFFFF;
-  }
-  .container-tchalla h2{
-    padding-top: 15px;
-    color: #021740;
-  }
-  .container-tchalla .donner-personel{
-    color: #021740;
-    padding-top: 15px;
-    padding-bottom: 60px;
-  }
-  aside .Pantherhome6 img{
-    width: 320px;
-    margin-top: 80px;
-    padding-top: 20px;
-  }
-
-
-  /* contact  page d'accuil*/
-
-  #contact{
-    background-image: url(back/Pantherhome7.png);
-    background-size: cover;
-    width: 100%;
-  }
-  
-  #contact .form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: #9e91b786;
-    width: 500px;
-    margin: 100px auto 30px auto;
-    border-radius: 150px;
-    padding-bottom: 60px;
-  }
-  #contact .form .text-contact{
-    background: #ffffffc2;
-    width: 100%;
-    border-top-right-radius: 150px;
-    border-top-left-radius: 150px;
-  }
-  #contact .form .text-contact p{
-    padding: 10px 70px;
-  }
-  #contact .form .text-contact h2{
-    padding: 5px 70px;
-}
-
-
-  #contact .form .information{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content:center;
-  }
-  #contact .form .Nom{
-    border: 1px solid;
-    width: 80%;
-    background-color: transparent;
-    padding: 15px 20px;
-    border-radius: 40px;
-    margin-top: 30px;
-  }
-  #contact .form input[type="email"]{
-    border: 1px solid;
-    width: 80%;
-    background-color: transparent;
-    padding: 15px 20px;
-    border-radius: 40px;
-    margin-top: 20px;
-  }
-  #contact .form textarea{
-    border: 1px solid;
-    width: 80%;
-    background-color: transparent;
-    padding: 15px 20px;
-    border-radius: 40px;
-    margin-top: 20px;
-  }
-  #contact .form input[type="submit"]{
-    display: block;
-    width: 150px;
-    margin: 30px auto;
-    padding: 10px 0;
-    cursor: pointer;
-    border-radius: 40px;
-}
-
-/* footer  tous les pages*/
- 
-footer{
-   background-image: url(backrondcss/back_footer.png);
-   background-size: cover;
-   color: #FFFFFF;
-}
-.pages-de-contenu-footer{
-    padding-top: 100px;
-}
-
-footer .footer1{
-  position: relative;
-    padding: 20px;
-    left: 20%;
-}
-footer .footer2{
-  width: 20px;
-  position: relative;
-  left: 24%;
-  top: 150px;
-}
-
-footer .contenu{
-    display: flex;
-    align-items: center;
-    position: relative;
-    left: 50%;
-    top: -250px;
-}
-footer .pages-contenu{
-    margin-right: 30px;
-}
-footer .pages-contenu a{
-   color: #FFFFFF;
-   text-decoration: none;
-}
-footer .resaux-sociaux{
-    margin-left: 40px;
-}
-.resaux-sociaux .sociaux img{
-    margin: 5px 7px;
-}
-.icon_facebook{
-    background: #F2CEF2;
-    padding: 10px;
-    border-radius: 50%;
-}
-.icon_instagram{
-    background: #DF99F2;
-    padding: 10px;
-    border-radius: 50%;
-}
-.icon_twitter{
-    background:#3D2DA6;
-    padding: 10px;
-    border-radius: 50%;
-}
-.icon_tiktok{
-    background: #07338C;
-    padding: 10px;
-    border-radius: 50%;
-}
-.fin-de-page ul{
-    display: flex;
-    justify-content: center;
-    font-size: 10.5px ;
-    position: relative;
-    top: -190px;
-    left: 15%;
-    color: #FFFFFF;
-}
-.fin-de-page ul li{
-  margin-left: 15px;
-}
-
-
-
+  body{
+      background: url(backrondcss/arrière_plan.png);
+      }
+      header{
+        border: #ffffff solid;
+        border-top: none;
+        border-right: none;
+        border-bottom: none;
+        margin-left: 34px;
+        height:250px;
+      }
+      
+      
+      nav {
+          padding: 15px 80px;
+          display: flex;
+          align-items: center;
+          border: #ffffff solid;
+          border-top: none;
+          border-right: none;
+          border-bottom: none;
+          margin-left: 20px;
+          height: 100px;
+      }
+      .icon{
+        display: flex;
+        flex-direction: column;
+        margin-left: 5px;
+      }
+      nav:not(:first-of-type){
+         margin-top: 200px;
+      }
+      nav a {
+          color: #FFFFFF;
+          font-family: 'beynoregular';
+          font-size: 18px;
+          text-transform: uppercase;
+          margin:0 10px;
+      }
+      nav img{
+        width: 60px;
+      }
+      nav a:first-of-type {
+          margin-left: auto;
+      }
+      nav .logo-header{
+        margin-right: 25px;
+        display: flex;
+      }
+      
+      
+      #partier1 .p1{
+          display: flex;
+          justify-content: center;
+          padding-top: 20px;
+          position: relative;
+      }
+      .p1 
+      .personage img{
+          width: 650px;
+      }
+      #partier1 .description{
+          width: 425px;
+          padding-top: 50px;
+          padding-left: 120px;
+          margin-right: 50px;
+          color: #FFFFFF;
+          
+      }
+      .description h1 {
+              font-family: 'Panthera';
+               font-size: 45px;
+               color: #9E91B7;
+      
+      }
+      .description h2 {
+          font-family: 'BEYNO';
+          margin-top: -30px;
+          font-size: 32px;
+          color: #9E91B7;
+      }
+      .description p {
+          font-family: 'cantarellregular';
+          font-size: 11px;
+          text-align: justify;
+          font-family: 'cantarell';
+      }
+      .description a{
+          padding-top: 5px;
+          color: #FFFFFF;
+          font-size: 12px;
+          font-family: 'cantarell';
+      }
+      
+      /* resposive flexbox  killmonger et okoye */
+      
+      .partier2 .Pantherhome2-killmonger{
+          display: flex;
+          justify-content:space-between;
+          align-items: center;
+          margin-left: 80px;
+          background: #021740;
+        }
+        .Pantherhome2-killmonger .killmo{
+          width: 300px;
+          font-size: 11px;
+          
+          color: white;
+        }
+        .Pantherhome2-killmonger .killmo p{
+          font-family:'cantarell';
+        }
+        .Pantherhome2-killmonger .killmo h2{
+          font-family: 'BEYNO';
+        }
+        .Pantherhome2-killmonger .killmo a{
+          color: white;
+          font-family: 'cantarell';
+        }
+        .Pantherhome2-killmonger .okoye{
+          width: 300px;
+          font-size: 12px;
+          padding: 0px 12px;
+          color: white;
+        }
+        .Pantherhome2-killmonger .okoye p{
+          font-family: 'cantarell';
+        }
+        .Pantherhome2-killmonger .okoye h2{
+          font-family: 'BEYNO';
+        }
+        .Pantherhome2-killmonger .okoye a{
+          color: white;
+          font-family: 'cantarell';
+        }
+        .Pantherhome2-killmonger img {
+           width: 230px;
+           margin:0 -20px;
+        }
+        .Pantherhome2-killmonger .item1{
+          width: 169px;
+        }
+      
+      
+      .container-article-aside{
+          display: flex;
+          justify-content: center;
+          padding-top: 100px;
+        } 
+        article{
+          width: 600px;
+          padding-top: 20px;
+          padding-right: 50px;
+          margin-left: -60px;
+          text-align: justify;
+        }
+        article h2{
+          font-family: 'beynoregular';
+           font-size: 25px;
+           color: #9E91B7;
+           padding-left: 80px;
+           font-family: 'BEYNO';
+        }
+        article p{
+          font-family: 'cantarell';
+           font-size: 12px;
+           padding-left: 80px;
+           padding-bottom: 5px;
+           line-height: 1.1;
+           color: #ffffffcb;
+        }
+      
+        aside{
+          width: 300px;
+          margin-top: 180px;
+          padding-left: 40px;
+          
+        }
+        aside .container-bloc-page{
+          background: #FFFFFF;
+          padding: 0 30px;
+          border-radius: 10px;
+        }
+        aside .container-image img{
+          width: 250px;
+          position: relative;
+          top: -180px;
+        }
+        aside .container-tchalla{
+          font-size: 11px;
+          margin-top: -185px;
+          padding: 10px auto;
+        }
+        aside .container-tchalla .container-liste ul{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-left: -50px;
+          width: 270px;
+          
+        }
+        aside .container-tchalla 
+        .container-liste ul .item{
+          background: #07338C;
+          margin: 5px;
+          padding: 5px;
+          border-radius: 5px;
+          color: #FFFFFF;
+          font-family: 'cantarell';
+        }
+        .container-tchalla h2{
+          padding-top: 15px;
+          color: #021740;
+          font-family: 'cantarell';
+        }
+        .container-tchalla .donner-personel{
+          color: #021740;
+          padding-top: 15px;
+          padding-bottom: 60px;
+          font-family: 'cantarell';
+        }
+        aside .Pantherhome6 img{
+          width: 320px;
+          margin-top: 60px;
+          padding-top: 40px;
+        }
+      
+      
+        /* contact  page d'accuil*/
+      
+        #contact{
+          background-image: url(./backrondcss/Pantherhome7.png);
+          background-size: cover;
+          width: 100%;
+        }
         
-        
+        #contact .form{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          background: #9e91b786;
+          width: 500px;
+          margin: 100px auto 30px auto;
+          border-radius: 150px;
+          padding-bottom: 60px;
+        }
+        #contact .form .text-contact{
+          background: #ffffffc2;
+          width: 100%;
+          border-top-right-radius: 150px;
+          border-top-left-radius: 150px;
+        }
+        #contact .form .text-contact p{
+          padding: 10px 70px;
+        }
+        #contact .form .text-contact h2{
+          padding: 5px 70px;
+          font-family: 'cantarell';
+      }
+      #contact .form .information{
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+          justify-content:center;
+        }
+        #contact .form .Nom{
+          border: 1px solid;
+          width: 80%;
+          background-color: transparent;
+          padding: 15px 20px;
+          border-radius: 40px;
+          margin-top: 30px;
+          font-family: 'cantarell';
+        }
+        #contact .form input[type="email"]{
+          border: 1px solid;
+          width: 80%;
+          background-color: transparent;
+          padding: 15px 20px;
+          border-radius: 40px;
+          margin-top: 20px;
+          font-family: 'cantarell';
+        }
+        #contact .form textarea{
+          border: 1px solid;
+          width: 80%;
+          background-color: transparent;
+          padding: 15px 20px;
+          border-radius: 40px;
+          margin-top: 20px;
+          font-family: 'cantarell';
+        }
+        #contact .form input[type="submit"]{
+          display: block;
+          width: 150px;
+          margin: 30px auto;
+          padding: 10px 0;
+          cursor: pointer;
+          border-radius: 40px;
+          font-family: 'cantarell';
+      }
+      
+      /* footer  tous les pages*/
+       
+      footer{
+         background-image: url(backrondcss/back_footer.png);
+         background-size: cover;
+         color: #FFFFFF;
+      }
+      .pages-de-contenu-footer{
+          padding-top: 100px;
+      }
+      
+      footer .footer1{
+        position: relative;
+          padding: 20px;
+          left: 20%;
+      }
+      footer .footer2{
+        width: 20px;
+        position: relative;
+        left: 24%;
+        top: 150px;
+      }
+      
+      footer .contenu{
+          display: flex;
+          align-items: center;
+          position: relative;
+          left: 50%;
+          top: -250px;
+      }
+      footer .pages-contenu{
+          margin-right: 30px;
+      }
+      footer .pages-contenu a{
+         color: #FFFFFF;
+         text-decoration: none;
+      }
+      footer .resaux-sociaux{
+          margin-left: 40px;
+      }
+      .resaux-sociaux .sociaux img{
+          margin: 5px 7px;
+      }
+      .icon_facebook{
+          background: #F2CEF2;
+          padding: 10px;
+          border-radius: 50%;
+      }
+      .icon_instagram{
+          background: #DF99F2;
+          padding: 10px;
+          border-radius: 50%;
+      }
+      .icon_twitter{
+          background:#3D2DA6;
+          padding: 10px;
+          border-radius: 50%;
+      }
+      .icon_tiktok{
+          background: #07338C;
+          padding: 10px;
+          border-radius: 50%;
+      }
+      .fin-de-page ul{
+          display: flex;
+          justify-content: center;
+          font-size: 10.5px ;
+          position: relative;
+          top: -190px;
+          left: 15%;
+          color: #FFFFFF;
+      }
+      .fin-de-page ul li{
+        margin-left: 15px;
+      }
+      
